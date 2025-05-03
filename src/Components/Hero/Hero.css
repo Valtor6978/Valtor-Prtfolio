@@ -1,0 +1,40 @@
+.hero-box {
+    margin-top: 10%;
+}
+
+.hero-paragraph{
+    font-size: 3rem;
+}
+
+.paragraph {
+    font-family: 'Poppins';
+}
+.name-span {
+    font-family: 'Poppins';
+    font-weight: 900;
+    font-size: 3.5rem;
+}
+.fisrt-span{
+    font-family: 'Vast Shadow';
+}
+.second-span {
+    font-family: 'Cutive Mono';
+}
+
+.hero-pic img {
+    max-width: 400px; 
+}
+
+
+/* phone media */
+
+@media (max-width: 708px) {
+.hero-paragraph {
+    font-size: 1.8rem;
+    /* backdrop-filter: blur(1000px);
+    background: rgba(255, 255, 255, 0.1); */
+}
+.hero-pic {
+    position: fixed;
+}
+}
