@@ -20,9 +20,38 @@
     margin: 0;
   }
   
-  .main-header a {
+  .main-header a {  
+    display: inline-block;
+    position: relative;
     text-decoration: none;
-    color: #f5f5f5;
+    color: inherit;
+    margin: 0 var(--spacing, 0px);
+    transition: margin 0.6s;
+  }
+  .main-header a:hover {
+    --spacing: 4px;
+    --stroke: var(--line-active);
+    --stroke-delay: 0.1s;
+    --offset: 180px;
+    --text: #2B3044;
+    --line: #BBC1E1;
+    --line-active: #7a89b7;
+  }  
+
+  .main-header a svg {
+    width: 76px;
+    height: 40px;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 7px) translateZ(0);
+    fill: none;
+    stroke: var(--stroke, var(--line));
+    stroke-linecap: round;
+    stroke-width: 2px;
+    stroke-dasharray: var(--offset, 69px) 278px;
+    stroke-dashoffset: 361px;
+    transition: stroke 0.25s ease var(--stroke-delay, 0s), stroke-dasharray 0.55s;
   }
   
   /* phone media */

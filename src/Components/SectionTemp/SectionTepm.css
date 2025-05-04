@@ -1,0 +1,57 @@
+.main-temp-div  {
+    font-family: 'Montserrat';
+    margin-top: 10%;
+}
+
+.main-temp-div h2 {
+    font-size: 1.8rem;
+    font-weight: 900;
+}
+
+.main-temp-div p {
+    max-width: 900px;
+    margin-top: 20px;
+    line-height: 1.5rem;
+    text-align: justify;
+}
+
+.static-img img {
+    margin-top: 5rem;
+    width: 100%;
+}
+
+.logo-container {
+    padding: 20px;
+}
+
+.logo-div {
+    width: 30%;
+    margin: 1rem;
+    padding: 1.5rem;
+}
+
+.logo-div img {
+    width: 230px;
+}
+
+.logo-div h3 {
+    font-family: 'Poppins';
+    font-size: 1rem;
+    margin-top: 1.5rem;
+}
+
+@media (max-width: 708px) {
+    .static-img img {
+        width: 80%;
+    }
+    .logo-div img {
+        width: 140px;
+    }
+    .logo-div h3 {
+        font-size: .8rem;
+    }
+    .main-temp-div p {
+        max-width: 90%;
+        text-align: left;
+    }
+}

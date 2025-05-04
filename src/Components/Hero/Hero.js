@@ -11,7 +11,7 @@ const Hero = () => {
             </div>
 
             <div className='hero-pic'>
-                <img src="Images/cody.svg" alt="cody picture" draggable='false' />
+                <img className='' src="Images/cody.svg" alt="cody logo" draggable='false' loading='lazy'/>
             </div>
 
         </div>
