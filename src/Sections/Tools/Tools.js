@@ -13,8 +13,12 @@ const Tools = () => {
 
     return(
         <SectionTepm
-        title={'Tools'}
-        description={`React, Tailwind, Sass, Bootstrap, Git, Material UI. I chose React because it feels like Lego modular, fast, and flexible. But it’s not about the tools it’s about using them in clever ways to solve your problems and speed up delivery.Need someone who builds fast and thinks smart? That’s me.`}
+        title={'ابزار'}
+        description={`React، Tailwind، Sass، Bootstrap، Git، Material UI  ابزارهاییه که باهاشون کار می‌کنم.
+ری‌اکت رو چون ماژولاره، سریع و انعطاف‌پذیره انتخاب کردم. اما اصل قضیه ابزار نیست، نحوه استفاده‌یه هوشمندانه از اون‌هاست برای ساخت سریع‌تر و بهتر.
+اگه دنبال کسی هستی که هم سریع کار کنه، هم دقیق فکر کنه  من اینجام.
+
+`}
         logo={ToolsLogo}
         />
     )

@@ -5,8 +5,10 @@ const StylesSec = () => {
     return(
         <>
         <SectionTepm 
-        title={'Style'} 
-        description={'Minimal. Creative. Scalable. I focus on building interfaces that look clean, feel smooth, and stay flexible for growth. No bloated code, no pixel struggles just smart solutions that elevate your design.  If you care about details, we’ll get along just fine.'}
+        title={'استایل'} 
+    description={`تمرکزم روی ساخت رابط‌هایی هست که تمیز دیده بشن، روان کار کنن و آماده رشد باشن.
+نه کد اضافی، نه جنگ با جزئیات بی‌دلیل  فقط راه‌حل‌هایی که طراحی‌تو به سطح بالاتری می‌برن.
+اگه جزئیات برات مهمه، خیلی خوب با هم کنار میایم.`}
         picture={'Images/DRYKISS.svg'}
         />
         </>

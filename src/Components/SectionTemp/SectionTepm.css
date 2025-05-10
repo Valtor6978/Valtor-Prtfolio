@@ -1,6 +1,7 @@
 .main-temp-div  {
-    font-family: 'Montserrat';
+    font-family: 'Vazirmatn';
     margin-top: 10%;
+    direction: rtl;
 }
 
 .main-temp-div h2 {
@@ -11,8 +12,8 @@
 .main-temp-div p {
     max-width: 900px;
     margin-top: 20px;
-    line-height: 1.5rem;
-    text-align: justify;
+    line-height: 1.8rem;
+    text-align: right;
 }
 
 .static-img img {
@@ -22,6 +23,7 @@
 
 .logo-container {
     padding: 20px;
+    direction: ltr;
 }
 
 .logo-div {
@@ -52,6 +54,5 @@
     }
     .main-temp-div p {
         max-width: 90%;
-        text-align: left;
     }
 }

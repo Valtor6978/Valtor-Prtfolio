@@ -6,16 +6,20 @@ const ProcessSec = () => {
         {id: 1 , src:'Images/Logo/test.svg' , caption:'Test'},
         {id: 2 , src:'Images/Logo/theme.svg' , caption:'theme'},
         {id: 3 , src:'Images/Logo/components.svg' , caption:'Components'},
-        {id: 4 , src:'Images/Logo/server.svg' , caption:'server'},
+        {id: 4 , src:'Images/Logo/Server.svg' , caption:'server'},
         {id: 5 , src:'Images/Logo/interfaces.svg' , caption:'interface'},
-        {id: 6 , src:'Images/Logo/integration.svg' , caption:'integration'},
+        {id: 6 , src:'Images/Logo/Integration.svg' , caption:'integration'},
     ]
 
     return (
         <>
         <SectionTepm 
-        title={'Process'}
-        description={`It starts with understanding. I begin by analyzing the Figma files, aligning with the UX intentions, and building a solid foundation. I stay in sync with your team, ask the right questions, and deliver on time with fewer revisions and zero drama. You want progress, not back-and-forth. Let’s keep it smooth.`}
+        title={'پروسه'}
+        description={`کار رو با تحلیل فایل‌های فیگما شروع می‌کنم؛ هدف تجربه کاربری رو می‌فهمم و یه پایه فنی قوی می‌سازم.
+با تیم تو هماهنگ می‌مونم، سؤال‌های دقیق می‌پرسم و نتیجه‌ای تحویل می‌دم که نیاز به اصلاحات مداوم نداره.
+وقتت با رفت‌و‌برگشت‌های بی‌مورد تلف نمی‌شه  فقط روند روون و حرفه‌ای.
+
+`}
         logo={Logos}
         />
         </>

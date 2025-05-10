@@ -5,8 +5,10 @@ const WhyMe = () => {
     return(
         <>
         <SectionTepm 
-        title={'why me?'} 
-        description={`Because I bring more than just code I bring clarity, creativity, and reliability. I turn Figma designs into clean, responsive, and scalable front-end experiences. Whether you're a founder or part of a product team, I help you build faster by taking front-end off your plate so you can focus on growing your vision.  Looking for someone who just gets it, no back-and-forth? Let’s talk.`}
+        title={'چرا من؟'} 
+        description={`من فقط کد نمی‌زنم  وضوح، خلاقیت و اطمینان میارم. طراحی‌های فیگما رو به رابط‌های کاربری تمیز، واکنش‌گرا و قابل توسعه تبدیل می‌کنم.
+اگه صاحب کسب‌و‌کار یا عضو یه تیم محصولی، با خیال راحت اجرای فرانت‌اند رو به من بسپر تا با تمرکز بیشتری روی رشد ایده‌ت کار کنی.
+دنبال کسی هستی که سریع منظور رو بگیره و بدون دردسر پیش ببره؟ خوشحال می‌شم گپ بزنیم.`}
         picture={'Images/Hood.svg'}
         />
         </>
